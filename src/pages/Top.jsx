@@ -4,7 +4,8 @@ import WeatherCard from '../components/WeatherCard'
 import SearchBar from '../components/SearchBar'
 import ForecastCard from '../components/ForecastCard'
 
-const Home = () => {
+
+const Top = () => {
   const [CW, setCW] = useState(null) // CW => City Weather
   const [CF, setCF] = useState([]) // CF => City Forecast
   const [theme, setTableTheme] = useState("style_TW");
@@ -27,7 +28,7 @@ const Home = () => {
   }
 
   return (
-    <div className='theme'>
+    <div className='theme app-bg' style={{height:"99vh"}}>
       <MyNavbar />
       <SearchBar onSearch={onSearch} setTheme={setTableTheme} />
       <WeatherCard CW={CW} theme={theme} />
@@ -36,4 +37,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Top

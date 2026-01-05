@@ -13,8 +13,8 @@ const SearchBar = ({ onSearch, setTheme }) => {
 
     const lightSound = new Audio("/src/assets/sounds/mixkit-little-bird-calling-chirp-23.wav")
     const darkSound = new Audio("/src/assets/sounds/mixkit-small-cricket-screech-1781.wav");
-    lightSound.volume = 0.6;
-    darkSound.volume = 0.6;
+    lightSound.volume = 0.2;
+    darkSound.volume = 0.2;
 
     function changeTheme(TH) {
         if (TH === "white") {

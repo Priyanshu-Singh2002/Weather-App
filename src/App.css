@@ -43,7 +43,6 @@
  */
 
 .app-bg {
-  min-height: 100vh;
   background-image: url("/hero-3.jpg");
   background-size: cover;
   background-position: center;
