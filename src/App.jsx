@@ -7,12 +7,13 @@ import Line from './components/Line'
 import Middle from './pages/Middle'
 
 function App() {
+  const [city, setcity] = useState("");
 
   return (
     <div>
-      <Top/>
+      <Top city={city} setcity={setcity} />
       <Line/>
-      <Middle/>
+      <Middle place={city} />
     </div>
   )
 }

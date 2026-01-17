@@ -2,8 +2,7 @@ import { useState } from 'react';
 
 import './SB.css';
 
-const SearchBar = ({ onSearch, setTheme }) => {
-    const [city, setcity] = useState("");
+const SearchBar = ({ onSearch, setTheme, city, setcity }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();

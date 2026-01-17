@@ -105,3 +105,14 @@
 #BG {
   background-color: rgba(220, 178, 42, 0.4)
 }
+
+.Layout {
+  display: flex;
+  height: 87vh;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+  border: 2px solid ;
+}
